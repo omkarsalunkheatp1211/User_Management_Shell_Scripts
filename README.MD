@@ -2,20 +2,6 @@
 
 This repository contains two bash scripts for user management on a Linux system.
 
-## Table of Contents
-
-- [user_make.sh](#user_make.sh)
-  - [Introduction](#introduction)
-  - [Features](#features)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  -  [Usage](#usage)
-- [delete_user.sh](#delete_user.sh)
-  - [Introduction](#introduction-1)
-  - [Features](#features-1)
-  - [Prerequisites](#prerequisites-1)
-  - [Usage](#usage-1)
-
 ## user_make.sh
 
 ### Introduction
