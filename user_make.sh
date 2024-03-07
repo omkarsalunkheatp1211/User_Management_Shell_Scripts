@@ -39,12 +39,12 @@ echo
 echo "Hostname: $(hostname -f)"
 
 # Send user information via email
-TO="omkarsalunkhe1211@gmail.com"
+TO="YourEmailAddress@Email.com"
 
 # Get current date and time
 CURRENT_DATE_TIME=$(date +"%d-%m-%Y %I:%M:%S %p")
 
 echo
-echo -e "Successfully created user account on RHELVM2 machine\n\nUsername: ${USER_NAME}\nPassword: ${PASSWORD}\nHostname: $(hostname -f)\nTime & Date: $CURRENT_DATE_TIME\n\n**********THANK YOU**********" | mail -s "NEW USER CREATED" "${TO}"
+echo -e "Successfully created user account on RHELVM machine\n\nUsername: ${USER_NAME}\nPassword: ${PASSWORD}\nHostname: $(hostname -f)\nTime & Date: $CURRENT_DATE_TIME\n\n**********THANK YOU**********" | mail -s "NEW USER CREATED" "${TO}"
 
 echo "User account created successfully."
