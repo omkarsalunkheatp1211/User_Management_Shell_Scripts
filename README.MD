@@ -26,7 +26,8 @@ The `user_make.sh` script automates the process of creating user accounts on a L
 
 1. Clone the repository to your local machine.
 2. Ensure execute permissions for the script (`chmod +x user_make.sh`).
-3. Make sure OpenSSL is installed (`sudo apt install openssl` on Debian-based systems).
+3. Install and configure Postfix [here](https://docs.oracle.com/en/learn/oracle-linux-postfix/#introduction)
+4. Make sure OpenSSL is installed (`sudo apt install openssl` on Debian-based systems).
 
 #### Usage
 
